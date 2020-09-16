@@ -1,0 +1,9 @@
+version:  '3'
+services: 
+  product-service: 
+    image: nohierhassan/products-service
+    volumes: 
+    - ./product:/usr/src/app 
+    ports: 
+    - 8080:80 
+
