@@ -1,1 +1,1 @@
-echo "Building ................" 
+echo "Building Then Image .............." 
