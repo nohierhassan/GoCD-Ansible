@@ -1,4 +1,4 @@
 echo "Building Then Image .............." 
-REVISION_NUMBR=$1
+REVISION_NUMBER=$1
 
-echo "The revision number is $REVISION_NUMBR "
+echo "The revision number V2 is $REVISION_NUMBER"
