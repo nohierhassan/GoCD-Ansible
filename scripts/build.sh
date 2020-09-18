@@ -4,7 +4,7 @@ echo "***********************"
 REVISION_NUMBER=$1
 
 
-docker build -t products-service:$REVISION_NUMBER "../app/"
+docker build -t products-service:$REVISION_NUMBER "app/"
 
 echo "**** Taging *********"
 echo "*********************"
