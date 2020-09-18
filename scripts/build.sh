@@ -1,8 +1,12 @@
-echo "**** Building & Tagging *********"
-echo "*********************************"
+echo "**** Building *********"
+echo "***********************"
 
 REVISION_NUMBER=$1
 
-# echo "The revision number is $REVISION_NUMBER"
 
-docker build ../app/Dockerfile -t nohierhassan/products-service:$REVISION_NUMBER 
+docker build -t products-service:$REVISION_NUMBER "../app/"
+
+echo "**** Taging *********"
+echo "*********************"
+
+docker tag products-service:$REVISION_NUMBER nohierhassan/products-service:$REVISION_NUMBER
