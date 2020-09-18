@@ -14,6 +14,7 @@ class Product(Resource):
                       'Chocolate', 
                       'Fruit',
                       'Vegies',
+                      'Others',
         
                   ]
     }
